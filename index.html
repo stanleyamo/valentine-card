@@ -20,7 +20,8 @@
 
     .card {
       position: relative;
-      width: 300px;
+      width: 90%;
+      max-width: 300px;
       height: 400px;
       background: rgba(255, 255, 255, 0.9);
       border-radius: 15px;
@@ -34,11 +35,12 @@
     }
 
     .message {
-      font-size: 24px;
+      font-size: 20px;
       color: #ff758c;
       text-shadow: 0 0 10px #ff7eb9, 0 0 20px #ff7eb9, 0 0 30px #ff7eb9;
       z-index: 2;
       animation: glow 2s infinite alternate;
+      padding: 20px;
     }
 
     @keyframes glow {
@@ -61,8 +63,8 @@
 
     .flowers span {
       display: inline-block;
-      width: 20px;
-      height: 20px;
+      width: 15px;
+      height: 15px;
       background: #ff7eb9;
       clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
       animation: fall 10s linear infinite;
@@ -79,105 +81,27 @@
       }
     }
 
-    .flowers span:nth-child(1) {
-      left: 5%;
-      animation-delay: 0s;
-    }
-
-    .flowers span:nth-child(2) {
-      left: 15%;
-      animation-delay: 2s;
-    }
-
-    .flowers span:nth-child(3) {
-      left: 25%;
-      animation-delay: 4s;
-    }
-
-    .flowers span:nth-child(4) {
-      left: 35%;
-      animation-delay: 6s;
-    }
-
-    .flowers span:nth-child(5) {
-      left: 45%;
-      animation-delay: 8s;
-    }
-
-    .flowers span:nth-child(6) {
-      left: 55%;
-      animation-delay: 10s;
-    }
-
-    .flowers span:nth-child(7) {
-      left: 65%;
-      animation-delay: 12s;
-    }
-
-    .flowers span:nth-child(8) {
-      left: 75%;
-      animation-delay: 14s;
-    }
-
-    .flowers span:nth-child(9) {
-      left: 85%;
-      animation-delay: 16s;
-    }
-
-    .flowers span:nth-child(10) {
-      left: 95%;
-      animation-delay: 18s;
-    }
-
-    .flowers span:nth-child(11) {
-      left: 10%;
-      animation-delay: 1s;
-    }
-
-    .flowers span:nth-child(12) {
-      left: 20%;
-      animation-delay: 3s;
-    }
-
-    .flowers span:nth-child(13) {
-      left: 30%;
-      animation-delay: 5s;
-    }
-
-    .flowers span:nth-child(14) {
-      left: 40%;
-      animation-delay: 7s;
-    }
-
-    .flowers span:nth-child(15) {
-      left: 50%;
-      animation-delay: 9s;
-    }
-
-    .flowers span:nth-child(16) {
-      left: 60%;
-      animation-delay: 11s;
-    }
-
-    .flowers span:nth-child(17) {
-      left: 70%;
-      animation-delay: 13s;
-    }
-
-    .flowers span:nth-child(18) {
-      left: 80%;
-      animation-delay: 15s;
-    }
-
-    .flowers span:nth-child(19) {
-      left: 90%;
-      animation-delay: 17s;
-    }
-
-    .flowers span:nth-child(20) {
-      left: 100%;
-      animation-delay: 19s;
-    }
+    /* Flower positions and delays */
+    .flowers span:nth-child(1) { left: 5%; animation-delay: 0s; }
+    .flowers span:nth-child(2) { left: 15%; animation-delay: 2s; }
+    .flowers span:nth-child(3) { left: 25%; animation-delay: 4s; }
+    .flowers span:nth-child(4) { left: 35%; animation-delay: 6s; }
+    .flowers span:nth-child(5) { left: 45%; animation-delay: 8s; }
+    .flowers span:nth-child(6) { left: 55%; animation-delay: 10s; }
+    .flowers span:nth-child(7) { left: 65%; animation-delay: 12s; }
+    .flowers span:nth-child(8) { left: 75%; animation-delay: 14s; }
+    .flowers span:nth-child(9) { left: 85%; animation-delay: 16s; }
+    .flowers span:nth-child(10) { left: 95%; animation-delay: 18s; }
+    .flowers span:nth-child(11) { left: 10%; animation-delay: 1s; }
+    .flowers span:nth-child(12) { left: 20%; animation-delay: 3s; }
+    .flowers span:nth-child(13) { left: 30%; animation-delay: 5s; }
+    .flowers span:nth-child(14) { left: 40%; animation-delay: 7s; }
+    .flowers span:nth-child(15) { left: 50%; animation-delay: 9s; }
+    .flowers span:nth-child(16) { left: 60%; animation-delay: 11s; }
+    .flowers span:nth-child(17) { left: 70%; animation-delay: 13s; }
+    .flowers span:nth-child(18) { left: 80%; animation-delay: 15s; }
+    .flowers span:nth-child(19) { left: 90%; animation-delay: 17s; }
+    .flowers span:nth-child(20) { left: 100%; animation-delay: 19s; }
   </style>
 </head>
 <body>
@@ -206,7 +130,7 @@
   <div class="card">
     <div class="message">
       Happy Valentine's Day!<br>
-      I'm so grateful to have you in my life. You bring joy, laughter, and warmth to every moment. Wishing you a day as amazing as you are! ✨ 🌸
+      I'm so grateful to have you in my life. You bring joy, laughter, and warmth to every moment. Wishing you a day as amazing as you are!✨🌸
     </div>
   </div>
 </body>
